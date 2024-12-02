@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Positioning Exercise</title>
+    <style>
+      /* Write your code here */
+      .blue-box {
+        position: relative;
+        top: 200px;
+        left: 200px;
+        background-color: blue;
+        height: 300px;
+        width: 500px;
+      }
+
+      .red-circle {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="blue-box">
+      <div class="red-circle"></div>
+    </div>
+  </body>
+</html>
+
+<!-- CSS Positioning Demo -->
+
+<!-- Static Positioning
+Position: static;
+left: 50px;
+top: 50px; 
+
+Relative Positioning
+position: relative;
+left: 50px;
+top: 50px; 
+
+Absolute Positioning
+position: absolute;
+top:50px;
+left: 50px;
+
+Fixed Positioning
+position: fixed;
+top:50px;
+left: 50px;
+
+If we are using Z-index then its going back.
+Z-index:-1
+
+300px-Tall, 500px-wide, 200px top, 200px left,
+150px-top, 250px-left
+
+left: 50px;
+top: 50px; 
+-->
